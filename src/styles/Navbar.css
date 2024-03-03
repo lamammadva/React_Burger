@@ -1,0 +1,21 @@
+.navbar1div{
+  background-color: #c12c28;;
+}
+.navbar2div{
+  display: flex;
+  align-items: center;
+  padding-left: 93px;
+}
+.navbarlink{
+  margin-left: auto;
+  display: flex;
+  gap: 12px;
+  padding-right: 70px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.navbar2div img{
+  height: 119px;
+}

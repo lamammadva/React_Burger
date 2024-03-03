@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #c12c28;;
+    height: 149px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .footer2{
+    display: flex;
+    gap: 9px
+    
+  }
+  .footer2 svg{
+    font-size: 34px;
+    color: white;
+  }

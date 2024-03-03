@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.aboutdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 77px
+}
+.aboutdiv img{
+    width: 100%;
+    height: 280px;
+    /* margin-top: 27px; */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contactimage{
+    height: 312px;
+    width: 378px;
+}
+    
+.contactdiv{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contactdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label{
+    color: gray;
 }
